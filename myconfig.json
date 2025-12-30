@@ -1,0 +1,1728 @@
+{
+    "parser": {
+        "preprocess": {
+            "all": [
+                {
+                    "target": "(Bass)",
+                    "replace": "<span font_desc=\"Unicode\">\ud834\udd22<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Slide Up)",
+                    "replace": "<span font_desc=\"Unicode\">\ud834\uddb1<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Slide Down)",
+                    "replace": "<span font_desc=\"Unicode\">\ud834\uddb2<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Slur)",
+                    "replace": "<span font_desc=\"Unicode\">\u2312<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Notes)",
+                    "replace": "<span font_desc=\"Unicode\">\ud83c\udfb6<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Intro)",
+                    "replace": "<span font_desc=\"Unicode\">\u25b6<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(End)",
+                    "replace": "<span font_desc=\"Unicode\">\ud83d\udd1a<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Turnaround)",
+                    "replace": "<span font_desc=\"Unicode\">\u21a9<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Guitar)",
+                    "replace": "<span font_desc=\"Unicode\">\ud83c\udfb8<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Up)",
+                    "replace": "<span font_desc=\"Unicode\">\u25b2<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Down)",
+                    "replace": "<span font_desc=\"Unicode\">\u25bc<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Right)",
+                    "replace": "<span font_desc=\"Unicode\">\u25b6<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Left)",
+                    "replace": "<span font_desc=\"Unicode\">\u25c0<\/span>",
+                    "flags": "gi"
+                }
+            ]
+        }
+    },
+    "settings": {
+        "notenames": true
+    },
+    "metadata": {
+        "keys": [
+            "title",
+            "subtitle",
+            "artist",
+            "composer",
+            "lyricist",
+            "arranger",
+            "album",
+            "copyright",
+            "year",
+            "sorttitle",
+            "ccli",
+            "ccli_license",
+            "footer",
+            "key",
+            "mode",
+            "time",
+            "tempo",
+            "capo",
+            "duration"
+        ],
+        "strict": true,
+        "separator": "; ",
+        "autosplit": true
+    },
+    "chords": [
+        {
+            "name": "Ab2",
+            "base": 1,
+            "frets": [
+                4,
+                1,
+                1,
+                1,
+                4,
+                4
+            ]
+        },
+        {
+            "name": "A\/C#",
+            "base": 2,
+            "frets": [
+                -1,
+                3,
+                1,
+                1,
+                1,
+                4
+            ]
+        },
+        {
+            "name": "A\/D",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                2,
+                2,
+                0
+            ]
+        },
+        {
+            "name": "Asus\/D",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                2,
+                3,
+                0
+            ]
+        },
+        {
+            "name": "A\/E",
+            "base": 1,
+            "frets": [
+                0,
+                0,
+                2,
+                2,
+                2,
+                0
+            ]
+        },
+        {
+            "name": "A2",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                2,
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "A5",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                2,
+                2,
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "A2\/C#",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                2,
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "A7sus",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                2,
+                0,
+                3,
+                0
+            ]
+        },
+        {
+            "name": "Amaj9",
+            "base": 4,
+            "frets": [
+                2,
+                1,
+                3,
+                1,
+                2,
+                1
+            ]
+        },
+        {
+            "name": "A\/B",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                2,
+                2,
+                2,
+                0
+            ]
+        },
+        {
+            "name": "Am11",
+            "base": 3,
+            "frets": [
+                3,
+                1,
+                3,
+                3,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "Am\/C",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                2,
+                2,
+                1,
+                0
+            ]
+        },
+        {
+            "name": "Am\/D",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                2,
+                1,
+                0
+            ]
+        },
+        {
+            "name": "Am\/G",
+            "base": 1,
+            "frets": [
+                3,
+                0,
+                2,
+                2,
+                1,
+                0
+            ]
+        },
+        {
+            "name": "Bb2",
+            "base": 1,
+            "frets": [
+                -1,
+                1,
+                3,
+                3,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "Bb5",
+            "base": 1,
+            "frets": [
+                -1,
+                1,
+                3,
+                3,
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "Bbm6",
+            "base": 1,
+            "frets": [
+                -1,
+                1,
+                3,
+                0,
+                2,
+                1
+            ]
+        },
+        {
+            "name": "Bb\/C",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                0,
+                3,
+                3,
+                1
+            ]
+        },
+        {
+            "name": "Bb\/D",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                3,
+                3,
+                1
+            ]
+        },
+        {
+            "name": "Bb\/F",
+            "base": 1,
+            "frets": [
+                1,
+                1,
+                3,
+                3,
+                3,
+                1
+            ]
+        },
+        {
+            "name": "B\/A",
+            "base": 2,
+            "frets": [
+                4,
+                1,
+                2,
+                2,
+                2,
+                -1
+            ]
+        },
+        {
+            "name": "B\/D#",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                1,
+                4,
+                4,
+                2
+            ]
+        },
+        {
+            "name": "B\/F#",
+            "base": 1,
+            "frets": [
+                2,
+                2,
+                4,
+                4,
+                4,
+                2
+            ]
+        },
+        {
+            "name": "B5",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                4,
+                4,
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "B7\/F#",
+            "base": 1,
+            "frets": [
+                2,
+                0,
+                1,
+                2,
+                0,
+                2
+            ]
+        },
+        {
+            "name": "Bm\/D",
+            "base": 4,
+            "frets": [
+                -1,
+                2,
+                1,
+                4,
+                4,
+                4
+            ]
+        },
+        {
+            "name": "Bm\/E",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                2,
+                4,
+                3,
+                2
+            ]
+        },
+        {
+            "name": "Bm2",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                0,
+                4,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "Bm7(4)",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                0,
+                2,
+                3,
+                0
+            ]
+        },
+        {
+            "name": "Bm9",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                0,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "Bm11",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                0,
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "Bm(maj7)",
+            "base": 1,
+            "frets": [
+                -1,
+                1,
+                4,
+                4,
+                3,
+                -1
+            ]
+        },
+        {
+            "name": "Bm7\/A",
+            "base": 4,
+            "frets": [
+                -1,
+                0,
+                0,
+                2,
+                0,
+                2
+            ]
+        },
+        {
+            "name": "Bsus\/D#",
+            "base": 4,
+            "frets": [
+                -1,
+                3,
+                1,
+                1,
+                2,
+                4
+            ]
+        },
+        {
+            "name": "C\/D",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "name": "C\/E",
+            "base": 1,
+            "frets": [
+                0,
+                3,
+                2,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "name": "C\/F",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                3,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "name": "C\/G",
+            "base": 3,
+            "frets": [
+                1,
+                1,
+                3,
+                3,
+                3,
+                1
+            ]
+        },
+        {
+            "name": "C\/Bb",
+            "base": 1,
+            "frets": [
+                -1,
+                1,
+                2,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "name": "C2",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                3,
+                0,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "C2(#4)",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                0,
+                0,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "C2\/E",
+            "base": 1,
+            "frets": [
+                0,
+                3,
+                0,
+                0,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "C5",
+            "base": 3,
+            "frets": [
+                -1,
+                1,
+                3,
+                3,
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "C7sus",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                3,
+                3,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "C7sus4",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                3,
+                3,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "Cm7(4)",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                3,
+                3,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "C7\/G",
+            "base": 3,
+            "frets": [
+                1,
+                1,
+                3,
+                1,
+                3,
+                1
+            ]
+        },
+        {
+            "name": "Cmaj9",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                2,
+                4,
+                3,
+                -1
+            ]
+        },
+        {
+            "name": "Cm11",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                1,
+                3,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "C#5",
+            "base": 4,
+            "frets": [
+                -1,
+                1,
+                3,
+                3,
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "C#\/B",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                3,
+                1,
+                2,
+                1
+            ]
+        },
+        {
+            "name": "C#\/F#",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                4,
+                1,
+                2,
+                1
+            ]
+        },
+        {
+            "name": "C#m\/E",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                2,
+                1,
+                2,
+                0
+            ]
+        },
+        {
+            "name": "C#m\/F#",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                1,
+                3,
+                2,
+                1
+            ]
+        },
+        {
+            "name": "D2",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                2,
+                3,
+                0
+            ]
+        },
+        {
+            "name": "D5",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                1,
+                2,
+                4
+            ]
+        },
+        {
+            "name": "D5\/B",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                0,
+                2,
+                3,
+                -1
+            ]
+        },
+        {
+            "name": "D5\/C#",
+            "base": 3,
+            "frets": [
+                -1,
+                -1,
+                -1,
+                4,
+                1,
+                3
+            ]
+        },
+        {
+            "name": "D5\/F#",
+            "base": 1,
+            "frets": [
+                2,
+                0,
+                0,
+                2,
+                3,
+                -1
+            ]
+        },
+        {
+            "name": "D5\/G",
+            "base": 1,
+            "frets": [
+                3,
+                0,
+                0,
+                2,
+                3,
+                -1
+            ]
+        },
+        {
+            "name": "D7sus",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "name": "D\/A",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                0,
+                2,
+                3,
+                2
+            ]
+        },
+        {
+            "name": "D\/C",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                0,
+                2,
+                3,
+                2
+            ]
+        },
+        {
+            "name": "D\/C#",
+            "base": 1,
+            "frets": [
+                -1,
+                4,
+                4,
+                2,
+                3,
+                2
+            ]
+        },
+        {
+            "name": "D\/E",
+            "base": 1,
+            "frets": [
+                0,
+                0,
+                0,
+                2,
+                3,
+                2
+            ]
+        },
+        {
+            "name": "D\/F#",
+            "base": 1,
+            "frets": [
+                2,
+                0,
+                0,
+                2,
+                3,
+                2
+            ]
+        },
+        {
+            "name": "D\/G",
+            "base": 1,
+            "frets": [
+                3,
+                0,
+                0,
+                2,
+                3,
+                2
+            ]
+        },
+        {
+            "name": "Eb2",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                1,
+                3,
+                4,
+                1
+            ]
+        },
+        {
+            "name": "Eb\/G",
+            "base": 1,
+            "frets": [
+                3,
+                1,
+                1,
+                0,
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "E2",
+            "base": 2,
+            "frets": [
+                -1,
+                -1,
+                1,
+                3,
+                4,
+                1
+            ]
+        },
+        {
+            "name": "E5",
+            "base": 1,
+            "frets": [
+                0,
+                2,
+                2,
+                -1,
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "E6",
+            "base": 1,
+            "frets": [
+                0,
+                2,
+                2,
+                1,
+                2,
+                0
+            ]
+        },
+        {
+            "name": "E7sus",
+            "base": 1,
+            "frets": [
+                0,
+                0,
+                0,
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "E\/A",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                2,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "E\/B",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                2,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "E\/D",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "E\/D#",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                1,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "E\/G#",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                3,
+                1,
+                2,
+                4
+            ]
+        },
+        {
+            "name": "Esus\/A",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                2,
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "Em9",
+            "base": 1,
+            "frets": [
+                0,
+                2,
+                0,
+                0,
+                0,
+                2
+            ]
+        },
+        {
+            "name": "Em11",
+            "base": 1,
+            "frets": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2
+            ]
+        },
+        {
+            "name": "Em\/B",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                2,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "Em\/D",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "F\/A",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                3,
+                2,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "F\/C",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                3,
+                2,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "F\/Eb",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                1,
+                2,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "F\/G",
+            "base": 1,
+            "frets": [
+                3,
+                0,
+                3,
+                2,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "F2",
+            "base": 1,
+            "frets": [
+                1,
+                3,
+                3,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "F5",
+            "base": 1,
+            "frets": [
+                1,
+                3,
+                3,
+                -1,
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "F7sus",
+            "base": 1,
+            "frets": [
+                1,
+                1,
+                1,
+                3,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "F7\/A",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                1,
+                2,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "Fmaj9",
+            "base": 1,
+            "frets": [
+                1,
+                0,
+                2,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "name": "F#5",
+            "base": 1,
+            "frets": [
+                2,
+                4,
+                4,
+                -1,
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "F#\/A#",
+            "base": 1,
+            "frets": [
+                -1,
+                1,
+                4,
+                3,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "F#m\/A",
+            "base": 2,
+            "frets": [
+                4,
+                3,
+                3,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "F#m7\/A",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "F#m\/E",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                2,
+                2,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "F#7\/A#",
+            "base": 1,
+            "frets": [
+                -1,
+                1,
+                2,
+                3,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "F#7sus",
+            "base": 1,
+            "frets": [
+                2,
+                2,
+                2,
+                4,
+                2,
+                2
+            ]
+        },
+        {
+            "name": "G\/A",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                0,
+                0,
+                0,
+                3
+            ]
+        },
+        {
+            "name": "G\/B",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                0,
+                0,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "G\/C",
+            "base": 1,
+            "frets": [
+                -1,
+                3,
+                0,
+                0,
+                0,
+                3
+            ]
+        },
+        {
+            "name": "G\/D",
+            "base": 1,
+            "frets": [
+                -1,
+                -1,
+                0,
+                0,
+                0,
+                3
+            ]
+        },
+        {
+            "name": "G\/F",
+            "base": 1,
+            "frets": [
+                1,
+                2,
+                0,
+                0,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "G\/F#",
+            "base": 1,
+            "frets": [
+                2,
+                2,
+                0,
+                0,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "G2",
+            "base": 1,
+            "frets": [
+                3,
+                0,
+                0,
+                0,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "Gsus2",
+            "base": 1,
+            "frets": [
+                3,
+                0,
+                0,
+                0,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "G2\/B",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                0,
+                2,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "G5",
+            "base": 3,
+            "frets": [
+                1,
+                3,
+                3,
+                -1,
+                -1,
+                -1
+            ]
+        },
+        {
+            "name": "G6",
+            "base": 1,
+            "frets": [
+                3,
+                2,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "G6\/A",
+            "base": 1,
+            "frets": [
+                -1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "G7\/B",
+            "base": 1,
+            "frets": [
+                -1,
+                2,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "name": "Gm7\/D",
+            "base": 3,
+            "frets": [
+                -1,
+                3,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "name": "Gm\/Bb",
+            "base": 1,
+            "frets": [
+                -1,
+                1,
+                0,
+                3,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "Gm9",
+            "base": 3,
+            "frets": [
+                1,
+                3,
+                1,
+                1,
+                1,
+                3
+            ]
+        },
+        {
+            "name": "Gsus",
+            "base": 1,
+            "frets": [
+                3,
+                3,
+                0,
+                0,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "Gsus4",
+            "base": 1,
+            "frets": [
+                3,
+                3,
+                0,
+                0,
+                3,
+                3
+            ]
+        },
+        {
+            "name": "G#7\/C",
+            "base": 3,
+            "frets": [
+                -1,
+                1,
+                2,
+                3,
+                2,
+                2
+            ]
+        }
+    ],
+    "pdf": {
+        "papersize": "letter",
+        "margintop": 80,
+        "marginbottom": 40,
+        "marginleft": 50,
+        "marginright": 50,
+        "headspace": 40,
+        "footspace": 20,
+        "formats": {
+            "default": {
+                "title": [
+                    "%{title}",
+                    "",
+                    ""
+                ],
+                "subtitle": [
+                    "",
+                    "",
+                    ""
+                ],
+                "footer": [
+                    "",
+                    "%{page}",
+                    ""
+                ],
+                "background": ""
+            },
+            "title": {
+                "title": [
+                    "%{title}",
+                    "",
+                    ""
+                ],
+                "subtitle": [
+                    "Key - %{key}%{mode| }%{mode}   %{time}   %{tempo|Tempo }%{tempo}   %{capo|Capo }%{capo}",
+                    "",
+                    ""
+                ],
+                "footer": [
+                    [
+                        "",
+                        "%{ccli|CCLI Song # }%{ccli}",
+                        ""
+                    ],
+                    [
+                        "",
+                        "%{artist}",
+                        ""
+                    ]
+                ],
+                "background": ""
+            },
+            "first": {
+                "footer": [
+                    [
+                        "",
+                        "%{ccli|CCLI Song # }%{ccli}",
+                        ""
+                    ],
+                    [
+                        "",
+                        "%{artist}",
+                        ""
+                    ]
+                ],
+                "background": ""
+            }
+        },
+        "fontdir": [
+            "C:\\Windows\\Fonts"
+        ],
+        "fontconfig": {
+            "times, serif": {
+                "": "Times-Roman",
+                "bold": "Times-Bold",
+                "italic": "Times-Italic",
+                "bolditalic": "Times-BoldItalic"
+            },
+            "Verdana": {
+                "": "verdana.ttf",
+                "bold": "verdanab.ttf",
+                "italic": "verdanai.ttf",
+                "bolditalic": "verdanaz.ttf"
+            },
+            "Emoji": {
+                "": "seguiemj.ttf",
+                "bold": "seguiemj.ttf"
+            },
+            "Unicode": {
+                "": "Seguisym.ttf",
+                "bold": "Seguisym.ttf"
+            },
+            "helvetica": {
+                "": "Helvetica",
+                "bold": "Helvetica-Bold",
+                "oblique": "Helvetica-Oblique",
+                "boldoblique": "Helvetica-BoldOblique"
+            },
+            "sans, sans-serif": {
+                "": "Helvetica",
+                "bold": "Helvetica-Bold",
+                "italic": "Helvetica-Oblique",
+                "bolditalic": "Helvetica-BoldOblique"
+            },
+            "courier, mono, monospace": {
+                "": "Courier",
+                "bold": "Courier-Bold",
+                "italic": "Courier-Italic",
+                "bolditalic": "Courier-BoldItalic"
+            },
+            "dingbats": {
+                "": "ZapfDingbats"
+            }
+        },
+        "fonts": {
+            "title": {
+                "description": "Verdana bold",
+                "size": 14
+            },
+            "subtitle": {
+                "description": "Verdana bold",
+                "size": 8
+            },
+            "comment": {
+                "description": "Verdana bold",
+                "size": 10,
+                "background": "foreground-light"
+            },
+            "label": {
+                "description": "Verdana",
+                "size": 10
+            },
+            "text": {
+                "description": "Verdana",
+                "size": 12
+            },
+            "chord": {
+                "description": "Verdana bold",
+                "size": 12
+            },
+            "annotation": {
+                "description": "Verdana bold",
+                "size": 12
+            },
+            "chordfingers": {
+                "file": "ChordProSymbols.ttf",
+                "numbercolor": "background"
+            },
+            "comment_italic": {
+                "description": "Verdana bold",
+                "size": 12
+            },
+            "comment_box": {
+                "description": "Verdana",
+                "size": 12,
+                "frame": 1
+            },
+            "tab": {
+                "description": "Courier",
+                "size": 10
+            },
+            "toc": {
+                "description": "Verdana",
+                "size": 11
+            },
+            "grid": {
+                "description": "Verdana",
+                "size": 10
+            }
+        },
+        "diagrams": {
+            "show": "bottom",
+            "width": 5.75,
+            "height": 6,
+            "vcells": 4,
+            "linewidth": 0.1,
+            "nutwidth": 5,
+            "hspace": 2.5,
+            "vspace": 1,
+            "dotsize": 0.8,
+            "barwidth": 0.8,
+            "fingers": true
+        },
+        "kbdiagrams": {
+            "show": "bottom",
+            "align": "left",
+            "width": 4,
+            "height": 20,
+            "keys": 14,
+            "base": "C",
+            "linewidth": 0.1,
+            "pressed": "foreground-light",
+            "hspace": 2,
+            "vspace": 0.3
+        }
+    }
+}
