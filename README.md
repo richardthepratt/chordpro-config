@@ -1,6 +1,6 @@
 # ChordPro-Config
 
-ChordPro-Config is an example configuration file for [ChordPro](https://www.chordpro.org/). It comes as a ready-to-use JSON file and as a PHP file that generates JSON from an array.
+ChordPro-Config is an example configuration file for [ChordPro](https://www.chordpro.org/). It comes as a ready-to-use JSON file and as a PHP factory that generates the same JSON from an array.
 
 It includes an extensive list of guitar chord definitions as well as some pre-parsed terms for Unicode characters. For example, (Bass) yields 𝄢.
 
