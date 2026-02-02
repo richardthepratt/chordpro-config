@@ -12,6 +12,11 @@ $config = [
 					"flags" => "gi"
 				],
 				[
+					"target" => "(Treble)",
+					"replace" => "<span font_desc=\"Unicode\">𝄞</span>",
+					"flags" => "gi"
+				],
+				[
 					"target" => "(Slide Up)", // aka Glissando up
 					"replace" => "<span font_desc=\"Unicode\">𝆱</span>",
 					"flags" => "gi"
@@ -39,6 +44,11 @@ $config = [
 				[
 					"target" => "(End)",
 					"replace" => "<span font_desc=\"Unicode\">🔚</span>",
+					"flags" => "gi"
+				],
+				[
+					"target" => "(Tag)",
+					"replace" => "<span font_desc=\"Unicode\">🏷</span>",
 					"flags" => "gi"
 				],
 				[

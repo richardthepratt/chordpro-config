@@ -8,6 +8,11 @@
                     "flags": "gi"
                 },
                 {
+                    "target": "(Treble)",
+                    "replace": "<span font_desc=\"Unicode\">\ud834\udd1e<\/span>",
+                    "flags": "gi"
+                },
+                {
                     "target": "(Slide Up)",
                     "replace": "<span font_desc=\"Unicode\">\ud834\uddb1<\/span>",
                     "flags": "gi"
@@ -35,6 +40,11 @@
                 {
                     "target": "(End)",
                     "replace": "<span font_desc=\"Unicode\">\ud83d\udd1a<\/span>",
+                    "flags": "gi"
+                },
+                {
+                    "target": "(Tag)",
+                    "replace": "<span font_desc=\"Unicode\">\ud83c\udff7<\/span>",
                     "flags": "gi"
                 },
                 {
