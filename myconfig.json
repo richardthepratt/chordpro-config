@@ -58,6 +58,11 @@
                     "flags": "gi"
                 },
                 {
+                    "target": "(Vocal)",
+                    "replace": "<span font_desc=\"Unicode\">\ud83c\udfa4<\/span>",
+                    "flags": "gi"
+                },
+                {
                     "target": "(Up)",
                     "replace": "<span font_desc=\"Unicode\">\u25b2<\/span>",
                     "flags": "gi"

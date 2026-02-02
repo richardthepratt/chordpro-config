@@ -62,6 +62,11 @@ $config = [
 					"flags" => "gi"
 				],
 				[
+					"target" => "(Vocal)",
+					"replace" => "<span font_desc=\"Unicode\">🎤</span>",
+					"flags" => "gi"
+				],
+				[
 					"target" => "(Up)",
 					"replace" => "<span font_desc=\"Unicode\">▲</span>",
 					"flags" => "gi"
