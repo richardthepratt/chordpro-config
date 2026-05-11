@@ -2,6 +2,13 @@
 
 $config = [
 
+	"config" => [
+		"type" => "style",
+		"title" => "Richard",
+		"description" => "Richard's Chordpro Config",
+	],
+
+
 	// replace these parentheticals with symbols wrapped in spans with font blah blah blah
 	"parser" => [
 		"preprocess" => [
@@ -134,11 +141,13 @@ $config = [
 			"base"  => 1,
 			"frets" => [4, 1, 1, 1, 4, 4],
 		],
+		/*
 		[
 			"name"  => "A/C#",
 			"base"  => 2,
 			"frets" => [-1, 3, 1, 1, 1, 4],
 		],
+		*/
 		[
 			"name"  => "A/D",
 			"base"  => 1,
@@ -507,11 +516,13 @@ $config = [
 			"base"  => 1,
 			"frets" => [0, 0, 0, 2, 3, 2],
 		],
+		/*
 		[
 			"name"  => "D/F#",
 			"base"  => 1,
 			"frets" => [2, 0, 0, 2, 3, 2],
 		],
+		*/
 		[
 			"name"  => "D/G",
 			"base"  => 1,
@@ -774,6 +785,11 @@ $config = [
 			"frets" => [3, 2, 0, 0, 0, 0],
 		],
 		[
+			"name"  => "G6sus2",
+			"base"  => 1,
+			"frets" => [3, 0, 0, 0, 3, 0],
+		],
+		[
 			"name"  => "G6/A",
 			"base"  => 1,
 			"frets" => [-1, 0, 0, 0, 0, 0],
@@ -849,7 +865,7 @@ $config = [
 			"title" => [
 				// Title and subtitle.
 				"title"     => [ "%{title}", "", "" ],
-				"subtitle"  => [ "Key - %{key}%{mode| }%{mode}   %{time}   %{tempo|Tempo }%{tempo}   %{capo|Capo }%{capo}", "", "" ],
+				"subtitle"  => [ "Key - %{key.print}%{mode| }%{mode}   %{time}   %{tempo|Tempo }%{tempo}   %{capo|Capo }%{capo}", "", "" ],
 				// Footer with page number.
 				"footer"    => [
 				[ "", "%{ccli|CCLI Song # }%{ccli}", "" ],
