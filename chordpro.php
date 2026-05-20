@@ -74,6 +74,11 @@ $config = [
 					"flags" => "gi"
 				],
 				[
+					"target" => "(Keyboard)",
+					"replace" => "<span font_desc=\"Unicode\">🎹</span>",
+					"flags" => "gi"
+				],
+				[
 					"target" => "(Up)",
 					"replace" => "<span font_desc=\"Unicode\">▲</span>",
 					"flags" => "gi"
@@ -422,6 +427,11 @@ $config = [
 			"frets" => [-1, 3, 1, 3, 1, 1],
 		],
 		[
+			"name"  => "Cm/G",
+			"base"  => 3,
+			"frets" => [1, 1, 3, 3, 2, 1],
+		],
+		[
 			"name"  => "C#2",
 			"base"  => 4,
 			"frets" => [-1, 1, 3, 3, 1, 1],
@@ -683,6 +693,11 @@ $config = [
 			"name"  => "Fmaj9",
 			"base"  => 1,
 			"frets" => [1, 0, 2, 0, 1, 0],
+		],
+		[
+			"name"  => "Fm/C",
+			"base"  => 1,
+			"frets" => [-1, 3, 3, 1, 1, 1],
 		],
 		[
 			"name"  => "F#2",
